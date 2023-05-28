@@ -28,6 +28,7 @@ alias gbc='git for-each-ref --format="%(authorname) %09 %(if)%(HEAD)%(then)*%(el
 
 # commit
 alias gc='git commit -v'
+alias gcz='cz commit'
 alias gca='git commit -v -a'
 alias gcaa='git commit -a --amend -C HEAD' # Add uncommitted and unstaged changes to the last commit
 alias gcam='git commit -v -am'
